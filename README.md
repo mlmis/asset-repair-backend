@@ -6,3 +6,7 @@ This is the Firebase Cloud Functions backend for the full stack asset repair mon
 1. Install Firebase CLI:
    ```bash
    npm install -g firebase-tools
+firebase login
+
+firebase deploy --only functions
+   
